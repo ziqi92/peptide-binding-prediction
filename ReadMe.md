@@ -25,7 +25,7 @@ python ./src/baseline.py -m [model name] -ls [loss name] -l [fully connected lay
 
 <code>-m</code>: specifies the name of model (can be ConvModel or SpannyConvModel)
 
-<code>-ls</code>: specifies the name of loss (can be "HingeV", "HingeL", "HingeI", "MeanSquare")
+<code>-ls</code>: specifies the name of loss (can be "HingeLoss1", "HingeLoss2", "HingeLoss3", "MeanSquare")
 
 <code>-l</code>: specifies the fully connected layers (e.x., "[64]" for one single FC layer with 64 hidden units, and "[64, 8]" for two FC layers with 64 and 8 hidden units, respectively.)
 
@@ -35,7 +35,7 @@ python ./src/baseline.py -m [model name] -ls [loss name] -l [fully connected lay
 
 <code>-k</code>: specifies the size of filters.
 
-<code>-ft</code>: specifies the feature type used by the model (can be "Blosum", "Deep", "One-hot", and their combinations connected with "_", for example, "Blosum_Deep".)
+<code>-ft</code>: specifies the feature type used by the model (can be "Blosum", "Learned", "One-hot", and their combinations connected with "_", for example, "Blosum_Learned".)
 
 
 
